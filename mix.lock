@@ -1,7 +1,10 @@
 [ "cowboy": {:git, "git://github.com/extend/cowboy.git", "903594bb8709db4fa98697ecf8adbdccabf64a83", []},
   "cowlib": {:git, "git://github.com/extend/cowlib.git", "2e0fc55f71bfeb543fd2218abed85890ff1e3e82", [ref: "0.5.0"]},
   "ex_doc": {:git, "git://github.com/elixir-lang/ex_doc.git", "dc0397d15686315dad653ed13c4836e4c6ef54e3", []},
+  "hackney": {:git, "git://github.com/benoitc/hackney.git", "ee982af5a15b58714761988630105dd92ebbbcab", []},
+  "hackney_lib": {:git, "https://github.com/benoitc/hackney_lib.git", "eecdb481f1d38bfb194896bffdf9bdcdd967ae96", [tag: "0.2.2"]},
   "inflex": {:git, "git://github.com/nurugger07/inflex.git", "b1c8b1d2647867b9171dbf3e6a3a4ab77ad0617e", []},
+  "mimetypes": {:git, "git://github.com/spawngrid/mimetypes.git", "47d37a977a7d633199822bf6b08353007483d00f", [ref: "master"]},
   "phoenix": {:git, "git://github.com/chrismccord/phoenix.git", "d73bc81bd33a2b81f0b71f461553a69d83af8ff1", []},
   "plug": {:git, "git://github.com/elixir-lang/plug.git", "9967d4de39c107237a3eb30c3939588766499637", [tag: "v0.3.0"]},
   "ranch": {:git, "git://github.com/extend/ranch.git", "5df1f222f94e08abdcab7084f5e13027143cc222", [ref: "0.9.0"]} ]
