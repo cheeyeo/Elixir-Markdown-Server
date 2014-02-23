@@ -10,7 +10,10 @@ defmodule MarkdownServer.Mixfile do
 
   # Configuration for the OTP application
   def application do
-    [mod: { MarkdownServer, [] }]
+    [
+    	applications: [:erlfsmon],
+      mod: { MarkdownServer, [] }
+    ]
   end
 
   # Returns the list of dependencies in the format:
@@ -23,7 +26,8 @@ defmodule MarkdownServer.Mixfile do
       {:ex_doc, github: "elixir-lang/ex_doc"},
       {:phoenix, github: "chrismccord/phoenix"},
       {:hackney, github: "benoitc/hackney"},
-      {:eml, github: "zambal/eml"}
+      {:eml, github: "zambal/eml"},
+      {:erlfsmon, github: "proger/erlfsmon"}
     ]
   end
 end

@@ -10,4 +10,9 @@ defmodule MarkdownServer.Router do
 
 	get "/pages/:page", MarkdownServer.PagesController, :show, as: :page
 	get "/pages", 			MarkdownServer.PagesController, :index, as: :pages
+
+	def start_link do
+		start
+	end
+	
 end
