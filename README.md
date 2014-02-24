@@ -30,3 +30,11 @@ lib/markdown_server/pages_view.ex
 * added in compass and zurb foundation for CSS
 
 * built own gemset and gem install using rvm 
+
+
+
+
+episode 50
+================
+
+added websockets adnd hacks inside erlfsmon

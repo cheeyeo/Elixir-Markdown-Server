@@ -27,7 +27,8 @@ defmodule MarkdownServer.Mixfile do
       {:phoenix, github: "chrismccord/phoenix"},
       {:hackney, github: "benoitc/hackney"},
       {:eml, github: "zambal/eml"},
-      {:erlfsmon, github: "proger/erlfsmon"}
+      # {:erlfsmon, github: "proger/erlfsmon"}
+      {:erlfsmon, github: "cheeyeo/erlfsmon"}
     ]
   end
 end
