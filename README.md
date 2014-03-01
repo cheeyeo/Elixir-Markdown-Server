@@ -38,3 +38,13 @@ episode 50
 ================
 
 added websockets adnd hacks inside erlfsmon
+
+* to recompile a local dependncy after some test changes
+  mix deps.compile erlfsmon
+
+
+* to set variables for apps before running iex:
+
+MARKDOWN_SERVER_DIR=/tmp/markdown/ iex -S mix
+
+iex --erl "--mnesia dir '~/doc/'" --name mynode

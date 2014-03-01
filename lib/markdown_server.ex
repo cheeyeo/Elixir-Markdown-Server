@@ -8,11 +8,11 @@ defmodule MarkdownServer do
   end
 
   def base_dir do
-  	System.get_env("MARKDOWN_SERVER_DIR") || default_base_dir
+    System.get_env("MARKDOWN_SERVER_DIR") || default_base_dir
   end
 
   defp default_base_dir do
-		"./test/support/sample_files/"
+		"./tmp/markdown/"
 	end
   
 end

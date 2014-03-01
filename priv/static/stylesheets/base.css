@@ -7323,3 +7323,15 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #ff9900;
 }
+
+/* line 22, ../../../sass/_markdown_server.scss */
+h1 {
+  background-color: #3299bb;
+  color: white;
+  padding: 1em;
+}
+
+/* line 28, ../../../sass/_markdown_server.scss */
+ul {
+  margin-left: 1.1rem;
+}
