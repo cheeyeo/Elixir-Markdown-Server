@@ -44,7 +44,6 @@ The project is developed following a series of tutorials hence its split into se
 checkout the corresponding branch.
 
 ## Notes on branch episode 48
-=============================
 
 * added eml as dependency
 
@@ -60,15 +59,12 @@ lib/markdown_server/pages_view.ex
 * built own gemset and gem install using rvm 
 
 
-
 ## Notes on branch episode 50
-=============================
 
 added websockets adnd hacks inside erlfsmon
 
 * to recompile a local dependncy after some test changes
   mix deps.compile erlfsmon
-
 
 * to set variables for apps before running iex:
 
